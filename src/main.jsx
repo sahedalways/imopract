@@ -4,17 +4,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import "./index.css";
 import Contact from "./ClientSide/Contact/Contact";
 import Event from "./ClientSide/Event/Event";
 import Membership from "./ClientSide/Membership/Membership";
 import Service from "./ClientSide/Service/Service";
+import "./index.css";
 // import JoysCardOne from "./ClientSide/Service/SingleCardItem/JoysCardOne/JoysCardOne";
 import About from "./ClientSide/About/About";
-import Home from "./ClientSide/Home/Home";
 import Blog from "./ClientSide/Blog/Blog";
 import InduvisulBlog from "./ClientSide/Blog/InduvisulBlog/InduvisulBlog";
+import Home from "./ClientSide/Home/Home";
 import NonEvents from "./ClientSide/NonEvents/NonEvents";
+import TermsofUse from "./ClientSide/TermsOfUse/TermsofUse";
 
 
 const router = createBrowserRouter([
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
   {
     path: "/induvisual-blog",
     element: <InduvisulBlog></InduvisulBlog>
+  },
+   {
+    path: "/terms-of-use",
+    element: <TermsofUse></TermsofUse>
   },
 
 ]);

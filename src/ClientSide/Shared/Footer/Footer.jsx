@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
+
     return (
         <div className='bg-[#D1D1D1] mt-[187px] 2xl:mt-[280px]  relative'>
             <div className='absolute  top-[-127px]  lg:top-[-80px] xl:top-[-110px] 2xl:top-[-150px] grid justify-center w-full '>
@@ -61,6 +62,9 @@ const Footer = () => {
                         <p className='footerMenuText'>Causes Case</p>
                         <p className='footerMenuText'>Blog</p>
                         <p className='footerMenuText'>Contact Us</p>
+                      
+                        <p className='footerMenuText' ><Link to="/terms-of-use">Terms of Use</Link></p>
+                        <p className='footerMenuText'>Privacy Policy</p>
                     </div>
 
                     <div>
