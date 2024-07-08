@@ -64,7 +64,7 @@ const Footer = () => {
                         <p className='footerMenuText'>Contact Us</p>
                       
                         <p className='footerMenuText' ><Link to="/terms-of-use">Terms of Use</Link></p>
-                        <p className='footerMenuText'>Privacy Policy</p>
+                        <p className='footerMenuText'><Link to="/privacy-policy">Privacy Policy</Link></p>
                     </div>
 
                     <div>

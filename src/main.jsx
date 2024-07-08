@@ -15,6 +15,7 @@ import Blog from "./ClientSide/Blog/Blog";
 import InduvisulBlog from "./ClientSide/Blog/InduvisulBlog/InduvisulBlog";
 import Home from "./ClientSide/Home/Home";
 import NonEvents from "./ClientSide/NonEvents/NonEvents";
+import PrivacyPolicy from "./ClientSide/PrivacyPolicy/PrivacyPolicy";
 import TermsofUse from "./ClientSide/TermsOfUse/TermsofUse";
 
 
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
    {
     path: "/terms-of-use",
     element: <TermsofUse></TermsofUse>
+  },
+
+     {
+    path: "/privacy-policy",
+    element: <PrivacyPolicy></PrivacyPolicy>
   },
 
 ]);
